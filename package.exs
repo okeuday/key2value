@@ -18,7 +18,7 @@ defmodule Key2value.Mixfile do
   end
 
   defp package do
-    [files: ~w(src doc README.markdown),
+    [files: ~w(src doc rebar.config README.markdown),
      contributors: ["Michael Truog"],
      licenses: ["BSD"],
      links: %{"GitHub" => "https://github.com/okeuday/key2value"}]
