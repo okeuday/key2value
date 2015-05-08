@@ -15,7 +15,7 @@ defmodule Key2value.Mixfile do
   end
 
   defp description do
-    "Erlang 2-way Set Associative Map"
+    "Erlang 2-way Map"
   end
 
   defp package do

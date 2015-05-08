@@ -4,7 +4,7 @@
 %%%------------------------------------------------------------------------
 %%% @doc
 %%% ==Key2Value==
-%%% Maintain 2 associative lookups for 2 separate keys and 1 value.
+%%% Maintain 2 lookups for 2 separate keys and 1 value.
 %%% The interface creates a bidirectional lookup where key1 can store
 %%% multiple key2 associations to the same value.
 %%% The supplied data structure module must have dict interface functions.
