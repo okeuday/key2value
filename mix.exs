@@ -3,11 +3,11 @@ defmodule Key2value.Mixfile do
 
   def project do
     [app: :key2value,
-     version: "1.5.4",
+     version: "1.6.0",
      language: :erlang,
-     description: description,
-     package: package,
-     deps: deps]
+     description: description(),
+     package: package(),
+     deps: deps()]
   end
 
   defp deps do
