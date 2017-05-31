@@ -24,7 +24,7 @@ defmodule Key2value.Mixfile do
   defp package do
     [files: ~w(src doc rebar.config README.markdown),
      maintainers: ["Michael Truog"],
-     licenses: ["BSD"],
+     licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/okeuday/key2value"}]
    end
 end
