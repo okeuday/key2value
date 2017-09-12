@@ -6,7 +6,7 @@ defmodule Key2value.Mixfile do
 
   def project do
     [app: :key2value,
-     version: "1.7.1",
+     version: "1.7.2",
      language: :erlang,
      description: description(),
      package: package(),
