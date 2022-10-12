@@ -6,10 +6,11 @@ defmodule Key2value.Mixfile do
 
   def project do
     [app: :key2value,
-     version: "2.0.4",
+     version: "2.0.5",
      language: :erlang,
      erlc_options: [
        {:d, :erlang.list_to_atom('ERLANG_OTP_VERSION_' ++ :erlang.system_info(:otp_release))},
+       :deterministic,
        :debug_info,
        :warn_export_vars,
        :warn_unused_import,
